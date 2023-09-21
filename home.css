@@ -1,0 +1,137 @@
+body{
+     background-image:url(./Imagens/imagemFundo.jpg);
+     background-attachment: fixed;
+     font-family: 'Lato','sans-serif';
+}
+header{
+    background-color: rgba(245, 245, 245, 0.647);
+    padding: 2rem;
+    border: solid 1px maroon;
+    border-radius: 0 0 0 50%;
+}
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+h1{
+    padding: .8rem;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: maroon;
+    text-shadow: darksalmon 5px  1px;
+}
+.logotipo{
+    border-radius: 50%;  
+    border: 1px solid maroon;
+    height: 150px;
+    left: 150px;
+    width: 150px;
+    padding: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+    font-size: 20px;
+    color: maroon;
+    text-shadow: darksalmon 2px 1px;
+}
+button{
+    border-radius: 5%;
+    background-color: maroon;
+    color: white;
+    padding: .8rem;
+}
+.inicial{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+    font-size: 20px;
+    color: maroon;
+    text-shadow: darksalmon 2px 1px;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+    
+}
+aside, main{
+    background-color: rgba(245, 245, 245, 0.577);
+    border: 1px solid maroon;
+    height: 100vh;
+    margin-top: .8rem;
+}
+aside{
+    color: rgb(96, 3, 3);
+    text-shadow: rgb(183, 81, 81) 1px 1px;
+    flex-basis: 25%;
+    align-items: center;
+    font-size: 30px;
+}
+main{
+    flex: 1;
+    color: maroon;
+    text-shadow: black 2px 1px;
+    align-items: center;
+    font-size: 30px;
+}
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: .8rem;
+    justify-content: center;
+}
+.books{
+    height: 170px;
+    width: 300px;
+    margin-top: .8rem;
+    border-radius: 10%;
+    border: solid 2px maroon;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-shadow: none;
+    padding: .2rem;
+}
+h6{
+    color: rgb(96, 3, 3);
+    text-shadow: rgb(183, 81, 81) 1px 1px;
+}
+button{
+display: flex;
+align-items: center;
+line-height: 0;
+gap: .4rem;
+}
+button img{
+    width:2rem ;
+    height: 2rem;
+}
+footer{
+    display: flex;
+    flex: 1;
+    height: 8rem;
+    width: 100rem;
+    color: whitesmoke;
+    background-color: rgba(128, 0, 0, 0.598);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 46rem;
+
+    
+}
